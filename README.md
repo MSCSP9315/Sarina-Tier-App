@@ -1,21 +1,13 @@
-# 🐾 MEINE TIERWELT
+# MEINE TIERWELT – GITHUB PAGES
 
-Ein spielerisches Tier-Lernspiel mit Weltreise, Tierkarten-Sammelalbum, Tier-Packs, Wörterlernen und Quiz.
+Alle Dateien dieses ZIP-Pakets gehören **direkt ins Hauptverzeichnis** des GitHub-Repositories.
 
-## GitHub Pages veröffentlichen
+1. Alte `index.html`, `manifest.webmanifest`, `sw.js` und `icon-512.png` durch die neuen Dateien ersetzen.
+2. Zusätzlich `icon-32.png`, `icon-180.png`, `icon-192.png` hochladen.
+3. Prüfen, dass alle Dateien auf derselben Ebene wie `README.md` liegen.
+4. Unter Settings → Pages den Branch `main` und `/(root)` aktivieren.
+5. Die veröffentlichte Website in Safari öffnen, bei Bedarf aktualisieren und über Teilen → Zum Home-Bildschirm hinzufügen.
 
-1. Auf GitHub ein **neues öffentliches Repository** erstellen, z. B. `meine-tierwelt`.
-2. Alle Dateien und den Ordner `assets` **aus diesem ZIP** in das Stammverzeichnis des Repositories hochladen (nicht das ZIP selbst).
-3. **Settings → Pages → Build and deployment → Deploy from a branch** wählen.
-4. Branch **main**, Ordner **/(root)** auswählen und speichern.
-5. Nach der Veröffentlichung `https://DEIN-NUTZERNAME.github.io/meine-tierwelt/` öffnen.
-6. Auf iPhone/iPad in **Safari → Teilen → Zum Home-Bildschirm** wählen.
+**Wichtig:** Ein bestehendes Home-Bildschirm-Icon wird von iOS oft zwischengespeichert. Das alte Symbol vom Home-Bildschirm entfernen und die Website neu hinzufügen. Dadurch werden die auf der Website lokal gespeicherten Spielstände normalerweise nicht gelöscht; das Entfernen der Website-Daten dagegen schon.
 
-Das Panda-/Meeresschildkröten-Icon ist als Apple-Touch-Icon, Favicon und PWA-Icon eingebunden.
-
-## Hinweise
-
-- Profile und Fortschritt werden **nur lokal auf dem jeweiligen Gerät und der jeweiligen Website-Adresse** gespeichert. Der Fortschritt aus einer lokal geöffneten HTML-Datei wird nicht automatisch zur GitHub-Pages-Adresse übertragen.
-- Die App-Grundfunktionen können nach dem ersten Aufruf offline funktionieren; Tierfotos aus externen Quellen benötigen Internet.
-- Bei Änderungen an `index.html` für Offline-Nutzer die Cache-Version in `sw.js` erhöhen.
-- Keine Anmeldung oder Datenbank nötig.
+Tierbilder von externen Quellen benötigen Internet.
